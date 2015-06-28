@@ -1,9 +1,4 @@
-class PrimeNumber
-	attr_reader :value
-	def initialize value
-		@value = value
-	end
-
+module PrimeNumber
 	def self.prime? number
 		return true if [1,2].include? number 
 		return nil if number == 0
