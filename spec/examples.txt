@@ -1,5 +1,7 @@
-example_id                         | status | run_time        |
----------------------------------- | ------ | --------------- |
-./spec/prime_number_spec.rb[1:1:1] | passed | 0.00176 seconds |
-./spec/prime_number_spec.rb[1:1:2] | passed | 0.00012 seconds |
-./spec/prime_number_spec.rb[1:2:1] | passed | 0.0021 seconds  |
+example_id                                 | status | run_time        |
+------------------------------------------ | ------ | --------------- |
+./spec/multiplication_table_spec.rb[1:1:1] | failed | 0.01585 seconds |
+./spec/multiplication_table_spec.rb[1:2:1] | passed | 0.00024 seconds |
+./spec/prime_number_spec.rb[1:1:1]         | passed | 0.0007 seconds  |
+./spec/prime_number_spec.rb[1:1:2]         | passed | 0.00009 seconds |
+./spec/prime_number_spec.rb[1:2:1]         | passed | 0.0005 seconds  |
